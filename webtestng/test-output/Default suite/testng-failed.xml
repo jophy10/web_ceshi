@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="pwd" value="redlion1234"/>
+  <parameter name="user" value="goodsowner2@163.com"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test._01_ShouYe">
+        <methods>
+          <include name="test_shouye" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test._01_ShouYe -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

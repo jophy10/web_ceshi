@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="test1" value="Tank"/>
+  <parameter name="pwd" value="redlion1234"/>
+  <parameter name="user" value="goodsowner2@163.com"/>
+  <parameter name="test2" value="Xiao"/>
+  <test name="test1(failed)">
+    <classes>
+      <class name="test._01_ShouYe">
+        <methods>
+          <include name="test_shouye" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test._01_ShouYe -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
